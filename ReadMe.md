@@ -16,7 +16,7 @@ This is a simple Digital Alarm Clock web application that allows users to set an
 1. Clone the repository or download the source code to your local machine.
 2. Open the `index.html` file in your web browser to access the Digital Alarm Clock application.
 
-The Digital Alarm Clock interface consists of the following components:
+## Components
 
 ### Time Display
 
