@@ -1,7 +1,7 @@
 // to add local time in header
 let time= document.querySelector('#time-header');
 setInterval(function(){
-    let date=new Date().toLocaleTimeString();
+    let date=new Date().toLocaleTimeString('en-US');
     if(date.length<11){
         date="0"+date;
     }
@@ -119,7 +119,7 @@ function addItemToDom(item) {
 setInterval(function(){
     const alarm_check =[...document.querySelectorAll('.alarm-list-item span')];   
 for(const j of alarm_check){
-    let alarm=new Date().toLocaleTimeString();
+    let alarm=new Date().toLocaleTimeString('en-US');
     if(alarm.length<11){
         alarm="0"+alarm;
     }  
