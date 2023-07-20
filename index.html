@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Digital Alarm Clock
+    </title>
+    <link rel="stylesheet" href="./styles.css" />
+
+</head>
+
+<body>
+    <div id="Alarm">
+        <!-- section to display time in heading -->
+        <section id="time-display">
+            <div id="time-header"></div>
+        </section>
+        <!-- section to take user inputs and display set alarm button -->
+        <section id="alarm-inputs-display">
+            <form>
+                <div class="alarm-inputs">
+                    <input type="number" name="hour" placeholder="HH" min="0" max="12" required="true" />
+                    <input type="number" name="min" min="0" max="60" placeholder="MM" required="true" />
+                    <input type="number" name="sec" min="0" max="60" placeholder="SS" />
+                    <select name="zone" required>
+                        <option value="AM" default>AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+                <button id="set-alarm">Set Alarm</button>
+            </form>
+        </section>
+        <!-- section to add alarm list -->
+        <section id="alarm-list-display">
+            <p id="alarm-list-header">Alarms</p>
+            <ul id="alarm-list">
+            </ul>
+        </section>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

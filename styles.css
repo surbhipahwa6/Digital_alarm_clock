@@ -1,0 +1,129 @@
+/* Main background div */
+#Alarm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 46vw;
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+/* time display header*/
+#time-header {
+    color: white;
+    font-size: 4.5em;
+    text-align: center;
+}
+
+/* user input for alarm section*/
+#alarm-inputs-display {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.alarm-inputs {
+    display: inline-block;
+}
+
+.alarm-inputs input,
+select {
+    border-radius: 24%;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width: 4rem;
+    border: 2px solid lightgrey;
+    color: grey;
+
+}
+
+.alarm-inputs select {
+    height: 2.6rem;
+    width: 4.2rem;
+}
+
+input[type='number']::placeholder {
+    text-align: center;
+
+    /* for Chrome, Firefox, Opera */
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+    /* for IE 10-11 */
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    /* for IE Edge */
+}
+
+/*user input no arrow - Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* set alarm button*/
+
+#set-alarm {
+    width: 8rem;
+    background-color: white;
+    height: 2rem;
+    border: 2px solid lightgrey;
+    border-radius: 10%;
+    margin-left: 1rem;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+/*alarm list display*/
+#alarm-list-display {
+    padding: 1rem;
+}
+
+#alarm-list-header {
+    margin: 1rem 0;
+    font-size: 3rem;
+    color: white;
+}
+
+#alarm-list {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.alarm-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.time-set {
+    color: white;
+    font-size: 2rem;
+}
+
+#alarm-list li{
+    margin-bottom: 1rem;
+    list-style: none;
+}
+/*delete button*/
+.delete {
+    width: 9rem;
+    background-color: white;
+    height: 2rem;
+    border: 2px solid lightgrey;
+    border-radius: 10%;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
