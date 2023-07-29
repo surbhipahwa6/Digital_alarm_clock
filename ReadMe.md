@@ -32,6 +32,9 @@ The list displays all the set alarms. Each alarm item shows the time in 12-hour 
 
 If an alarm time matches the current time, you will receive an alert indicating that you have set an alarm with the matching time.
 
+### Demo
+Live - https://surbhipahwa6.github.io/Digital_alarm_clock/
+
 ## Author
 
 This Digital Alarm Clock application is developed by Surbhi Pahwa. You can contact me at surbhipahwa36@gmail.com for any questions or inquiries related to this project.
